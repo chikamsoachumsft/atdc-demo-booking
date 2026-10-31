@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ATDC Demo Day — Book a demo slot</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>ATDC Demo Day</h1>
+      <p>Book a 30-minute slot to demo your startup to the review panel.</p>
+    </header>
+
+    <main>
+      <section id="slots" aria-live="polite">
+        <p class="muted">Loading slots…</p>
+      </section>
+
+      <!-- BOOK-104 (in progress): booking form renders, but submit is not wired up yet. -->
+      <section id="booking" hidden>
+        <h2>Book <span id="booking-slot"></span></h2>
+        <form id="booking-form">
+          <label>Startup name <input name="company" required /></label>
+          <label>Your name <input name="contact" required /></label>
+          <label>Email <input name="email" type="email" required /></label>
+          <label>Demo title <input name="title" required /></label>
+          <button type="submit">Request this slot</button>
+          <button type="button" id="booking-cancel" class="secondary">Back</button>
+        </form>
+        <p id="booking-status" class="muted"></p>
+      </section>
+    </main>
+
+    <footer class="muted">Fictional demo project · Atlanta Technical Development Center</footer>
+    <script src="/app.js"></script>
+  </body>
+</html>

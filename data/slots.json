@@ -1,0 +1,226 @@
+[
+  {
+    "id": "slot-001",
+    "start": "2026-11-19T14:00:00.000Z",
+    "end": "2026-11-19T14:30:00.000Z",
+    "room": "Studio A",
+    "booked": false
+  },
+  {
+    "id": "slot-002",
+    "start": "2026-11-19T14:30:00.000Z",
+    "end": "2026-11-19T15:00:00.000Z",
+    "room": "Studio A",
+    "booked": true
+  },
+  {
+    "id": "slot-003",
+    "start": "2026-11-19T15:00:00.000Z",
+    "end": "2026-11-19T15:30:00.000Z",
+    "room": "Studio A",
+    "booked": false
+  },
+  {
+    "id": "slot-004",
+    "start": "2026-11-19T15:30:00.000Z",
+    "end": "2026-11-19T16:00:00.000Z",
+    "room": "Studio A",
+    "booked": false
+  },
+  {
+    "id": "slot-005",
+    "start": "2026-11-19T16:00:00.000Z",
+    "end": "2026-11-19T16:30:00.000Z",
+    "room": "Studio A",
+    "booked": true
+  },
+  {
+    "id": "slot-006",
+    "start": "2026-11-19T16:30:00.000Z",
+    "end": "2026-11-19T17:00:00.000Z",
+    "room": "Studio A",
+    "booked": true
+  },
+  {
+    "id": "slot-007",
+    "start": "2026-11-19T17:00:00.000Z",
+    "end": "2026-11-19T17:30:00.000Z",
+    "room": "Studio A",
+    "booked": false
+  },
+  {
+    "id": "slot-008",
+    "start": "2026-11-19T17:30:00.000Z",
+    "end": "2026-11-19T18:00:00.000Z",
+    "room": "Studio A",
+    "booked": false
+  },
+  {
+    "id": "slot-009",
+    "start": "2026-11-19T18:00:00.000Z",
+    "end": "2026-11-19T18:30:00.000Z",
+    "room": "Studio B",
+    "booked": false
+  },
+  {
+    "id": "slot-010",
+    "start": "2026-11-19T18:30:00.000Z",
+    "end": "2026-11-19T19:00:00.000Z",
+    "room": "Studio B",
+    "booked": false
+  },
+  {
+    "id": "slot-011",
+    "start": "2026-11-19T19:00:00.000Z",
+    "end": "2026-11-19T19:30:00.000Z",
+    "room": "Studio B",
+    "booked": false
+  },
+  {
+    "id": "slot-012",
+    "start": "2026-11-19T19:30:00.000Z",
+    "end": "2026-11-19T20:00:00.000Z",
+    "room": "Studio B",
+    "booked": false
+  },
+  {
+    "id": "slot-013",
+    "start": "2026-11-19T20:00:00.000Z",
+    "end": "2026-11-19T20:30:00.000Z",
+    "room": "Studio B",
+    "booked": false
+  },
+  {
+    "id": "slot-014",
+    "start": "2026-11-19T20:30:00.000Z",
+    "end": "2026-11-19T21:00:00.000Z",
+    "room": "Studio B",
+    "booked": false
+  },
+  {
+    "id": "slot-015",
+    "start": "2026-11-19T21:00:00.000Z",
+    "end": "2026-11-19T21:30:00.000Z",
+    "room": "Studio B",
+    "booked": false
+  },
+  {
+    "id": "slot-016",
+    "start": "2026-11-19T21:30:00.000Z",
+    "end": "2026-11-19T22:00:00.000Z",
+    "room": "Studio B",
+    "booked": false
+  },
+  {
+    "id": "slot-017",
+    "start": "2026-11-20T14:00:00.000Z",
+    "end": "2026-11-20T14:30:00.000Z",
+    "room": "Studio A",
+    "booked": false
+  },
+  {
+    "id": "slot-018",
+    "start": "2026-11-20T14:30:00.000Z",
+    "end": "2026-11-20T15:00:00.000Z",
+    "room": "Studio A",
+    "booked": false
+  },
+  {
+    "id": "slot-019",
+    "start": "2026-11-20T15:00:00.000Z",
+    "end": "2026-11-20T15:30:00.000Z",
+    "room": "Studio A",
+    "booked": true
+  },
+  {
+    "id": "slot-020",
+    "start": "2026-11-20T15:30:00.000Z",
+    "end": "2026-11-20T16:00:00.000Z",
+    "room": "Studio A",
+    "booked": false
+  },
+  {
+    "id": "slot-021",
+    "start": "2026-11-20T16:00:00.000Z",
+    "end": "2026-11-20T16:30:00.000Z",
+    "room": "Studio A",
+    "booked": false
+  },
+  {
+    "id": "slot-022",
+    "start": "2026-11-20T16:30:00.000Z",
+    "end": "2026-11-20T17:00:00.000Z",
+    "room": "Studio A",
+    "booked": false
+  },
+  {
+    "id": "slot-023",
+    "start": "2026-11-20T17:00:00.000Z",
+    "end": "2026-11-20T17:30:00.000Z",
+    "room": "Studio A",
+    "booked": false
+  },
+  {
+    "id": "slot-024",
+    "start": "2026-11-20T17:30:00.000Z",
+    "end": "2026-11-20T18:00:00.000Z",
+    "room": "Studio A",
+    "booked": false
+  },
+  {
+    "id": "slot-025",
+    "start": "2026-11-20T18:00:00.000Z",
+    "end": "2026-11-20T18:30:00.000Z",
+    "room": "Studio B",
+    "booked": false
+  },
+  {
+    "id": "slot-026",
+    "start": "2026-11-20T18:30:00.000Z",
+    "end": "2026-11-20T19:00:00.000Z",
+    "room": "Studio B",
+    "booked": false
+  },
+  {
+    "id": "slot-027",
+    "start": "2026-11-20T19:00:00.000Z",
+    "end": "2026-11-20T19:30:00.000Z",
+    "room": "Studio B",
+    "booked": false
+  },
+  {
+    "id": "slot-028",
+    "start": "2026-11-20T19:30:00.000Z",
+    "end": "2026-11-20T20:00:00.000Z",
+    "room": "Studio B",
+    "booked": false
+  },
+  {
+    "id": "slot-029",
+    "start": "2026-11-20T20:00:00.000Z",
+    "end": "2026-11-20T20:30:00.000Z",
+    "room": "Studio B",
+    "booked": false
+  },
+  {
+    "id": "slot-030",
+    "start": "2026-11-20T20:30:00.000Z",
+    "end": "2026-11-20T21:00:00.000Z",
+    "room": "Studio B",
+    "booked": false
+  },
+  {
+    "id": "slot-031",
+    "start": "2026-11-20T21:00:00.000Z",
+    "end": "2026-11-20T21:30:00.000Z",
+    "room": "Studio B",
+    "booked": false
+  },
+  {
+    "id": "slot-032",
+    "start": "2026-11-20T21:30:00.000Z",
+    "end": "2026-11-20T22:00:00.000Z",
+    "room": "Studio B",
+    "booked": false
+  }
+]

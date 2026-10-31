@@ -1,0 +1,11 @@
+{
+  "project": "atdc-demo-booking",
+  "projectName": "ATDC Demo Booking",
+  "url": "https://agentreturn-demo.onrender.com",
+  "brand": {
+    "customName": "ATDC Demo Booking",
+    "customWorkspace": "ATDC",
+    "customColor": "#B3A369",
+    "examplePrompt": "Wire the booking form to the API"
+  }
+}

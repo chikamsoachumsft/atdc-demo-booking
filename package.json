@@ -1,0 +1,21 @@
+{
+  "name": "atdc-demo-booking",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Fictional demo project: book a demo slot at the Atlanta Technical Development Center (ATDC) Demo Day. Deliberately unfinished.",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "join": "node scripts/join.mjs",
+    "brief": "node scripts/agentreturn.mjs brief --human",
+    "project": "node scripts/agentreturn.mjs project",
+    "feed": "node scripts/agentreturn.mjs feed",
+    "agentreturn": "node scripts/agentreturn.mjs"
+  },
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
