@@ -10,7 +10,8 @@
     "brief": "node scripts/agentreturn.mjs brief --human",
     "project": "node scripts/agentreturn.mjs project",
     "feed": "node scripts/agentreturn.mjs feed",
-    "agentreturn": "node scripts/agentreturn.mjs"
+    "agentreturn": "node scripts/agentreturn.mjs",
+    "page": "node scripts/agentreturn.mjs page"
   },
   "dependencies": {
     "express": "^4.21.1"

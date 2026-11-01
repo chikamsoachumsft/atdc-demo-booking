@@ -25,8 +25,9 @@ Then open the folder in **Claude Code**, **Cursor** or **GitHub Copilot**:
 - When your agent finishes a piece of work it logs it to the shared memory (see `AGENTS.md`), so the
   next person is caught up.
 
-Useful commands: `npm run brief` (your catch-up), `npm run project` (Start here, features, decisions,
-people), `npm run feed` (recent entries).
+Useful commands: **`npm run page`** (open the project memory as a readable page in your browser),
+`npm run brief` (your catch-up), `npm run project` (Start here, features, decisions, people),
+`npm run feed` (recent entries).
 
 Nothing is installed outside this folder except your personal access file `~/.agentreturn/config.json`.
 Delete the folder (and that file) to remove everything.

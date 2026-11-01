@@ -6,6 +6,7 @@
  *   agentreturn whoami                                          who am I, which projects
  *   agentreturn brief   [--ticket KEY] [--human] [--peek]       project → feature → ticket context
  *   agentreturn project                                         Start here, features, tickets, decisions, people
+ *   agentreturn page    [--print]                               open the readable project page in your browser
  *   agentreturn feed    [--ticket KEY] [--type DECISION] [--since 2026-10-30] [--limit 30]
  *   agentreturn log     --type WORK|DECISION|DISCUSSION|RESEARCH --title "..." --summary "one line"
  *                       [--body "..." | --body-file notes.md | --body-file -]  [--ticket KEY] [--feature KEY]
@@ -169,6 +170,21 @@ async function main() {
       for (const d of v.decisions) console.log(`- ${fmt(d.created_at)}  ${d.title} — ${d.summary} (${d.author_name}${d.agent ? ' + ' + d.agent : ''})`);
       console.log('\n## People and agents');
       for (const m of v.members) console.log(`- ${m.name}${m.role === 'owner' ? ' (owner)' : ''}${m.area ? ' — ' + m.area : ''}${m.agents.length ? ' · ' + m.agents.join(', ') : ''}`);
+      return;
+    }
+    case 'page': {
+      needProject();
+      if (!url || !token) die('not set up. Run: npm run join (or agentreturn setup --url <server> --token <token>)');
+      const link = `${url}/memory/${encodeURIComponent(project)}#token=${encodeURIComponent(token)}`;
+      if (args.print) return console.log(link);
+      const opener = process.platform === 'win32' ? `start "" "${link}"` : process.platform === 'darwin' ? `open "${link}"` : `xdg-open "${link}"`;
+      try {
+        execSync(opener, { stdio: 'ignore', shell: true });
+        console.log(`Opened the ${project} project page in your browser.`);
+      } catch {
+        console.log(`Open this link in your browser (it contains your personal access — don't share it):
+${link}`);
+      }
       return;
     }
     case 'feed': {
